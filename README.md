@@ -6,11 +6,11 @@ The system allows user to add ,search,update ,Delete and Display all students.
 
 It also genertes reports and stores data using text files, binary files, and object serialization.
 ## Features
-**add student**
+**Add student**
 
-**search student by ID**
+**Search student by ID**
 
-**update student information**
+**Update student information**
 
 **Delete student**
 
@@ -32,80 +32,101 @@ It also genertes reports and stores data using text files, binary files, and obj
 
 ## Classes Used
 
-Student.java
+**1.Student.java**
+
 Stores student information:
 
-Student ID
-Name
-Department
-GPA
-StudentManagement.java
+-Student ID
+-Name
+-Department
+-GPA
+
+**2.StudentManagement.java**
+
 Manages student operations:
 
-Add Student
-Search Student
-Update Student
-Delete Student
-Display Students
-Generate Report
-FileManager.java
+-Add Student
+-Search Student
+-Update Student
+-Delete Student
+-Display Students
+-Generate Report
+
+**3.FileManager.java**
+
 Handles file operations:
 
-Text Files (PrintWriter)
-Binary Files (DataOutputStream)
-Object Serialization (ObjectOutputStream)
-File Information (File class)
-Backup using Buffered Streams
-Main.java
+-Text Files (PrintWriter)
+-Binary Files (DataOutputStream)
+-Object Serialization (ObjectOutputStream)
+-File Information (File class)
+-Backup using Buffered Streams
+
+**4.Main.java**
+
 Contains the main method and menu-driven user interface.
 
-File I/O Used
+## File I/O Used
 
-Text Files
+**Text Files**
 
-PrintWriter
-Binary Files
+-PrintWriter
 
-DataOutputStream
-Object Serialization
+**Binary Files**
 
-ObjectOutputStream
-Buffered Streams
+-DataOutputStream
 
-BufferedInputStream
-BufferedOutputStream
-File Class
+**Object Serialization**
+
+-ObjectOutputStream
+
+**Buffered Streams**
+
+-BufferedInputStream
+-BufferedOutputStream
+
+**File Class**
 
 Used to display:
 
-File name
-File path
-File size
-Report Generated
+-File name
+-File path
+-File size
+## Report Generated
 
 The system generates:
 
-Total Students
-Highest GPA
-Lowest GPA
-Average GPA
-Exception Handling
+-Total Students
+-Highest GPA
+-Lowest GPA
+-Average GPA
+
+## Exception Handling
 
 Try-catch blocks are used to handle exceptions that may occur during file operations.
 
 
-Concepts Used
+## Concepts Used
 
-Classes and Objects
-Encapsulation
-ArrayList
-File I/O
-Scanner
-PrintWriter
-DataInputStream and DataOutputStream
-ObjectInputStream and ObjectOutputStream
-Buffered Streams
-Exception Handling
+-Classes and Objects
+
+-Encapsulation
+
+-ArrayList
+
+-File I/O
+
+-Scanner
+
+-PrintWriter
+
+-DataInputStream and DataOutputStream
+
+-ObjectInputStream and ObjectOutputStream
+
+-Buffered Streams
+
+-Exception Handling
 
 
 
